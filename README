@@ -1,0 +1,5 @@
+In this project I'm merelly following instructions from kmmbvnr. The goal is getting jenkins CI to work.
+You can see details in video located at http://kmmbvnr.livejournal.com/75183.html
+Also I use buildout mechanism. Like that:
+python bootstrap
+bin/buildout
