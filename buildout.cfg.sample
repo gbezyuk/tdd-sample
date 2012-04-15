@@ -45,6 +45,8 @@ eggs =
 	django-webtest
 	coverage
 	django-coverage
+	django-jenkins
+	django-any
 
 project = ci
 

@@ -1,0 +1,2 @@
+
+from ci.settings import *
