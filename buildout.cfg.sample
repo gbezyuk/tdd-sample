@@ -9,36 +9,36 @@ settings = development
 versions = versions
 eggs =
 # HTML sanitation
-	bleach
+#	bleach
 
 # database migration
-	south
+#	south
 
 # better and more beautiful django-admin site UI
-	django-grappelli
+#	django-grappelli
 # filebrowser for django-grappelli admin
-	django-filebrowser
+#	django-filebrowser
 
 # admin interface for .po/.mo files translation
-	django-rosetta
+#	django-rosetta
 
 # simply better python shell
 	ipython
 
 # for small pieces of AJAX
-	simplejson
+#	simplejson
 
 # apparently best relational DB trees implementation
-	django-mptt
+#	django-mptt
 # basically, cheap & cheerful admin UI for django-mptt trees. Other stuff stays unused.
-	feincms
+#	feincms
 
 # hamlpy dependency
-	pygments
+#	pygments
 # HAML translator python realization
-	hamlpy
+#	hamlpy
 # makes hamlpy usage in django templates possible
-	djaml
+#	djaml
 
 # testing tools. See http://habrahabr.ru/post/91471/ and http://blog.futurecolors.ru/2012/04/testing-and-django-carl-meyer.html for details
 	webtest
@@ -46,7 +46,7 @@ eggs =
 	coverage
 	django-coverage
 
-project = tulius
+project = ci
 
 [versions]
 django = 1.4
