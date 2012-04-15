@@ -1,0 +1,15 @@
+error.log
+buildout.cfg
+.installed.cfg
+bin**
+eggs**
+develop-eggs**
+parts**
+**.pyc**
+**.idea**
+**.sass-cache**
+**uploads_versions/**
+**~
+**.kate-swp
+**.directory
+**uploads**
