@@ -1,5 +1,15 @@
 In this project I'm merelly following instructions from kmmbvnr. The goal is getting jenkins CI to work.
 You can see details in video located at http://kmmbvnr.livejournal.com/75183.html
 Also I use buildout mechanism. Like that:
-python bootstrap
-bin/buildout
+$ cp buildout.cfg.sample buildout.cfg
+$ python bootstrap.py
+Downloading http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg
+Creating directory '/d/sandbox/ci/bin'.
+Creating directory '/d/sandbox/ci/parts'.
+Creating directory '/d/sandbox/ci/eggs'.
+Creating directory '/d/sandbox/ci/develop-eggs'.
+Getting distribution for 'setuptools'.
+Got setuptools 0.6c12dev-r88846.
+Generated script '/d/sandbox/ci/bin/buildout'.
+$ bin/buildout
+#many letters here, indicating local django and other stuff installation
