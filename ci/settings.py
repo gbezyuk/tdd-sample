@@ -148,3 +148,8 @@ LOGGING = {
         },
     }
 }
+
+#django_jenkins whitelist
+PROJECT_APPS = (
+    'ci.accounting',
+)
